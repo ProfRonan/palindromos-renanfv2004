@@ -1,7 +1,9 @@
+"""Main functions"""
+
 import re
 
 def is_palindrome(string: str) -> bool:
-    
+    """Check if string is palindrome."""
     n = string
     n = n.lower()
     n = n.replace(" ", "")
