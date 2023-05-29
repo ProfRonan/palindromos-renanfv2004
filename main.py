@@ -1,5 +1,3 @@
-
-
 import re
 
 def is_palindrome(string: str) -> bool:
